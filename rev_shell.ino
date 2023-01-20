@@ -22,4 +22,4 @@ void setup()
 }
 void loop() {}
 
-pro micro reverse shell, not detected by antiviruses
+//pro micro reverse shell, not detected by antiviruses
