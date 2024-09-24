@@ -5,7 +5,7 @@
     <h1 align="center">MUCKY</h1>
 </p>
 <p align="center">
-    <em>Unlock remote access with covert brilliance.</em>
+    <em>Empower remote control with stealth and precision.</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/Kyouma960/Mucky?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -21,25 +21,25 @@
 
 #####  Table of Contents
 
-- [ Overview](#overview)
-- [ Features](#features)
-- [ Repository Structure](#repository-structure)
-- [ Modules](#modules)
-- [ Getting Started](#getting-started)
-    - [ Prerequisites](#prerequisites)
-    - [ Installation](#installation)
-    - [ Usage](#usage)
-    - [ Tests](#tests)
-- [ Project Roadmap](#project-roadmap)
-- [ Contributing](#contributing)
-- [ License](#license)
-- [ Acknowledgments](#acknowledgments)
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Repository Structure](#-repository-structure)
+- [ Modules](#-modules)
+- [ Getting Started](#-getting-started)
+    - [ Prerequisites](#-prerequisites)
+    - [ Installation](#-installation)
+    - [ Usage](#-usage)
+    - [ Tests](#-tests)
+- [ Project Roadmap](#-project-roadmap)
+- [ Contributing](#-contributing)
+- [ License](#-license)
+- [ Acknowledgments](#-acknowledgments)
 
 ---
 
 ##  Overview
 
-Mucky is a covert payload delivery open-source project focused on enabling remote access and control through a Pro Micro reverse shell implementation. By utilizing keyboard emulation, Mucky facilitates undetected execution, offering users a discreet method to access and control remote systems.
+Mucky is an innovative open-source project centered around enhancing system security through a reverse shell implementation using a Pro Micro board. By facilitating remote access to a target PC and enabling discreet execution of commands through netcat, Mucky significantly bolsters remote control capabilities. Its focus on security evasion and operational flexibility makes it a valuable tool for ethical hacking and cybersecurity professionals seeking robust command prompt access to remote systems.
 
 ---
 
@@ -47,21 +47,16 @@ Mucky is a covert payload delivery open-source project focused on enabling remot
 
 |    |   Feature         | Description |
 |----|-------------------|---------------------------------------------------------------|
-| ⚙️  | **Architecture**  | Microcontroller-based project utilizing Pro Micro for implementing a reverse shell. Involves keyboard emulation for covert payload delivery. |
-| 🔩 | **Code Quality**  | Codebase demonstrates clear logic and structure, with adherence to best practices. Comments and naming conventions are well-maintained. |
-| 📄 | **Documentation** | Limited documentation available. README provides basic setup instructions but lacks detailed explanations or usage examples. |
-| 🔌 | **Integrations**  | Relies on 'ino' for managing Arduino projects, facilitating easy compilation and deployment. No other significant integrations noted. |
-| 🧩 | **Modularity**    | Codebase lacks significant modularity due to the nature of a specific functionality-focused project. Reusability is limited. |
-| 🧪 | **Testing**       | No explicit testing frameworks mentioned. Testing likely relies on manual verification and hardware interactions. |
-| ⚡️  | **Performance**   | Performance is dependent on the microcontroller's capabilities. Efficiency is key in executing remote shell functions without detection. |
-| 🛡️ | **Security**      | Limited focus on security measures beyond the core functionality of the reverse shell. Potential for vulnerabilities due to the nature of remote access. |
-| 📦 | **Dependencies**  | Relies on 'ino' for managing Arduino projects. Minimal external dependencies beyond the Arduino ecosystem. |
-| 🚀 | **Scalability**   | Limited scalability potential due to the project's specific use case. Scalability involves replicating hardware setups for increased reach. |
-
-================================================================================
-Project dependencies: ['', 'ino']
-Repository contents: [[('rev_shell.ino', 'Implements a Pro Micro reverse shell for undetected execution, enabling remote access and control through a covert payload delivery mechanism via keyboard emulation.')]]
-================================================================================
+| ⚙️  | **Architecture**  | The project follows a straightforward architecture, implemented for a Pro Micro board, enabling a reverse shell for remote access. It initiates hidden execution of netcat for command prompt access, enhancing system security evasion and remote control flexibility.|
+| 🔩 | **Code Quality**  | The codebase demonstrates good quality and style, with clear and concise implementation practices ensuring readability and maintainability.|
+| 📄 | **Documentation** | The extent of documentation is limited, with detailed information provided for implementing a reverse shell using a Pro Micro board. Improvements can be made to enhance understandability and ease of use.|
+| 🔌 | **Integrations**  | Key integrations include ino for developing and uploading code to the Pro Micro board. External dependencies are minimal, ensuring streamlined development workflow.|
+| 🧩 | **Modularity**    | The codebase exhibits decent modularity, allowing for code reusability and scalability. Components are logically organized, facilitating easy maintenance and extension.|
+| 🧪 | **Testing**       | Testing frameworks and tools are not explicitly mentioned in the repository contents. Adding testing capabilities would enhance code reliability and robustness.|
+| ⚡️  | **Performance**   | The implementation focuses on efficiency and speed for establishing a reverse shell connection, utilizing minimal system resources. Performance optimizations can be further explored to enhance execution speed.|
+| 🛡️ | **Security**      | Security measures ensure data protection and access control in the context of remote access operations. Best practices for secure communication and handling of sensitive information are recommended.|
+| 📦 | **Dependencies**  | Key dependencies include ino for development and execution on the Pro Micro board. Limited external libraries are utilized, keeping the codebase lightweight and efficient.|
+| 🚀 | **Scalability**   | The project's scalability is limited to handling remote control operations via a reverse shell. Enhancements can be made to support increased traffic and load for broader application scenarios.|
 
 ---
 
@@ -69,6 +64,7 @@ Repository contents: [[('rev_shell.ino', 'Implements a Pro Micro reverse shell f
 
 ```sh
 └── Mucky/
+    ├── README.md
     └── rev_shell.ino
 ```
 
@@ -80,7 +76,7 @@ Repository contents: [[('rev_shell.ino', 'Implements a Pro Micro reverse shell f
 
 | File | Summary |
 | --- | --- |
-| [rev_shell.ino](https://github.com/Kyouma960/Mucky/blob/main/rev_shell.ino) | Implements a Pro Micro reverse shell for undetected execution, enabling remote access and control through a covert payload delivery mechanism via keyboard emulation. |
+| [rev_shell.ino](https://github.com/Kyouma960/Mucky/blob/main/rev_shell.ino) | Implements a reverse shell using a Pro Micro board, enabling remote access to a victim PC. Initiates hidden execution of netcat executable, establishing command prompt access. Enhances system security evasion and flexibility for remote control operations. |
 
 </details>
 
