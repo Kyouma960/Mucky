@@ -2,10 +2,6 @@
 
 *Stealthy remote control via a Pro Micro board.*
 
-![License](https://img.shields.io/github/license/your-repo?style=default&color=0080ff) 
-![Last Commit](https://img.shields.io/github/last-commit/your-repo?style=default&color=0080ff) 
-![Top Language](https://img.shields.io/github/languages/top/your-repo?style=default&color=0080ff)
-
 ---
 
 ### Table of Contents
