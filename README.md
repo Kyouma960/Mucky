@@ -66,5 +66,3 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 - Inspired by community tools for ethical hacking and cybersecurity.
 
 --- 
-
-Feel free to adjust any links or references to fit your repository details. This format is direct and maintains clarity.
